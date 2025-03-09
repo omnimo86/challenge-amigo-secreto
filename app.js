@@ -1,1 +1,13 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+// crea array amigos
+let amigos = [];
+
+// crear funcion para agregar amigos
+
+
+// crea funcion para crear lista de amigos
+
+
+// crear una función para actualizar la lista de amigos
+
+
+// crear funcion para sortea amigo
