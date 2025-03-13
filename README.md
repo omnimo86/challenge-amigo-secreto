@@ -48,4 +48,4 @@ Este archivo contiene la lógica JavaScript para la aplicación. Incluye funcion
 
 ## Créditos
 
-Este proyecto fue desarrollado por [Carlos cona].
+Este proyecto fue desarrollado por [Carlos Cona](https://github.com/omnimo86).
