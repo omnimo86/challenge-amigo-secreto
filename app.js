@@ -1,5 +1,7 @@
 // crea array amigos
 let amigos = [];
+let listaAmigos = document.getElementById('listaAmigos');
+let resultado = document.getElementById('resultado');
 
 // crear funcion para agregar amigos
 function agregarAmigo() {
@@ -21,10 +23,18 @@ function agregarAmigo() {
     actualizarLista();   
 }
 
-// crea funcion para crear lista de amigos
+// crea funcion para crear lista de amigos la actualiza
+function actualizarLista() {
+    listaAmigos.innerHTML = ""; // Borra contenido de la lista
+
+    amigos.forEach(amigo => {
+        const li = document.createElement('li');
+        li.textContent = amigo;
+        listaAmigos.appendChild(li);
+    });
+}
 
 
-// crear una función para actualizar la lista de amigos
 
 
 // crear funcion para sortea amigo
